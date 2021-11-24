@@ -1,0 +1,58 @@
+<html>
+<head>
+    <meta charset="UTF-8"/>
+
+</head>
+<form>
+<body>
+<div>
+<h1> New Student</h1>
+<fieldset>
+<legend>Personal Information</legend>
+<p>
+<label> Full Name </label>
+<input type="text" required>
+</p>
+<p>
+<label>Birthdate</label>
+<input type="date" required>
+</p>
+<p>
+<label> Gender:  </label>
+<input type="radio"  required>Male 
+<input type="radio" " required> Female<br>
+</p>
+<br>
+</fieldset>
+</div>
+<div>
+ <br>
+<fieldset>
+<legend> Contact Information </legend>
+<p>
+<label>Email</label>
+<input type="email" required>
+</p>
+<p>
+<label> Address</label>
+<textarea></textarea>
+</p>
+</fieldset>
+</div>
+<div>
+<fieldset>
+<legend>University Information </legend>
+<br>
+
+<label>Choose Your Faculty:  </label>
+<select>
+    <option >Faculty 1 </option>
+    <option >Faculty 2 </option>  
+</select>
+</fieldset>
+</div>
+<br>
+<input type="submit" value=" Add">
+</form>
+</body>
+</html>
